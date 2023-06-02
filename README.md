@@ -22,5 +22,4 @@ When asked for the seaon, choose the starting year. For eg. if you want for the 
 
 ## Please Note:
 
-Step 1 is not required as PlayerIds.csv is already provided.
-You may have to generate one after transfer windows to account for all the player transfers.
+You may have to generate new PlayerIDs.csv after transfer windows to account for all the player transfers.
