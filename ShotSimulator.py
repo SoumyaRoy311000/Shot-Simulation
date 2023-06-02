@@ -56,7 +56,6 @@ while(True):
 
 
     season_choice = input("Enter the season: ")
-    value = int(input("Enter the real number of goals scored: "))
 
     print(f'The graph of {pid.iat[l[choice-1], 1]} for the season {season_choice} is being generated')
 
@@ -112,7 +111,14 @@ while(True):
         simulations.append(total_goals)
         shots+=1
 
-
+    value = 0
+    i=0
+    
+    while(i<rows):
+        if newdf.iat[i,2] == 'Goal':
+            value+=1
+        i+=1
+        
     simulations.sort()
     
     #Creating the Graph
